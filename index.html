@@ -1,48 +1,167 @@
-<!DOCTYPE html>
-  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- 
-    <!-- Adicionando stilo css via arquivo .css -->
-    <link rel="stylesheet" href="css/estilo.css">
-  
-    <title>Este é o título da página</title>
-    <meta name="Descrição" content="esta é a descrição do web site">
-    <meta name="Autor" content="Wallace Costa">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resume</title>
+<link type="text/css" rel="stylesheet" href="css/blue.css" />
+<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+</head>
+<body>
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="images/wallace.jpg" alt="John Smith" />
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name">Wallace Costa <br />
+              <span>Estudante de Engenharia de Computação</span></h1>
+            <ul>
+              <li class="mail">wallacecosta.eng@gmail.com</li>
+              <li class="tel">+55 92 99273-2439</li>
 
-    <!-- permite caracteres especiais, acentuação entre outros -->
-    <meta charset="UTF-8">
-   
-  <head/>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="#" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+              <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>OBJETIVO</h2>
+          <p>Desenvolvimento pessoal e profissional, contribuir nas atividades técnicas, estimular e compartilhar os conhecimentos adquirios, conhecer novas tecnologias, novos modelos, métodos, colaborar para o sucesso da organização.</p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2> EDUCAÇÃO </h2>
+          <div class="content">
+            <h3>Cursando</h3>
+            <p>Engenharia de computação<br />
+              <em>Universidade do Estado do Amazonas - UEA</em></p>
+          </div>
+          <div class="content">
+            <p>Inglês básico e avançado<br />
+              <em>Centro Tecnológico do Amazonas - Cetam</em></p>
+          </div>
+          <div class="content">
+            <p>Informática básica e avançada<br />
+              <em>Centro Tecnológico do Amazonas - Cetam</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2> Experiência </h2>
+          <div class="content">
+            <h3>08/2015 - 08/2017</h3>
+            <p>Estágio em Engenharia de Computação 
+              <em>FUCAPI</em></p>
+            <ul class="info">
+        <br>
+        Na FUCAPI também em parceria com a Diebold Nixdorf obtive novas experiências no desenvolvimento de API(s) e Testes nos dispositivos do ATM na linguam C e C++ para os sistemas operacionais Windows e Linux, algumas dessas experiências foram:
+        
+        <li> Implementação da comunicação serial entre dispositivos ( portas serias e paralelas ) </li>
+        
+        <li> Participação no desenvolvimento de criptografia ponta a ponta, geração de certificados, conversão de DER para BASE64 e vise versa </li>
+        
+        <li> Manutenção e/ou criação de API(s) para os dispositivos como: Teclado, Leitor de Cartão, Recliclador de notas e outros. </li>
+        
+        <li> Testes nos dispositos, afim de consolidar as funcionalidades e garantir mais qualidade, segurança, robustez, além da interoperabilidades com outros dispositivos. </li>
+            </ul>
+          </div>
 
-  <body>
-
-  <form>
-  <input type="search">
-  </form>
-  
-    <!--Exemplo de div -->
-    <div id="rodape">
-      <img src="img/porones.jpeg" alt="aplicando div">
+          <div class="content">
+            <h3>04/2014 - 12/2015</h3>
+            <p>Estágio em Engenharia de Computação <br />
+              <em>CERTI</em></p>
+            <ul class="info">
+        <br>
+        Na CERTI em parceria com a Diebold Nixdorf obtive experiência no desenvolvimento de soluções de automação bancária, desenvolvendo API(s) para dispostivos dos ATMs (Caixas eletrônicos) e lá tive as seguintes experiências:
+     
+       <li> Desenvolvimento em C e C++ para os sistemas operacionais Windows e Linux </li>
+        
+        <li> Aplicação do padrão de projeto MVC</li>
+        
+        <li> Implementação de Threads, Processos, Mutex, Semáforos e Eventos </li>
+        
+        <li> Implementação da Comunicação entre Processos IPC ( Mailslot e Sockte )</li>
+        
+        <li> Criação de bibliotecas estáticas e dinâmicas <li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->
+        <div class="entry">
+          <h2>HABILIDADES</h2>
+          <div class="content">
+            <ul class="info">
+              <li>Desenvolvimento Mobile para Windows Phone e Android</li>
+              <li>Modelagem em UML</li>
+              <li>Utilização da metodologia SCRUM</li>
+              <li>Desenvolvimento Web</li>
+              <li>Utilização de IoT (Internet das Coisas)</li>
+              <li>Experiência com sistemas embarcados, utilizando Arduino</li>
+              <li>Desenvolvimento de API(s) para Windows e Linux nas distribuições Debian, Suse e Ubuntu</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Linguagens</h3>
+            <ul class="skills">
+              <li>CSS/HTML</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>C/C++</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <!-- Begin 5th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
     </div>
-    
-    <h1>É o título 1</h1>
-    <p> Aqui é um paragrafo </p>
-    <p> Inserindo uma imagem logo abaixo</p>
-
-    <!-- Inserindo imagens -->
-    <figure>
-      <img src="img/porones.jpeg" alt="Festa de rock no porão do alemão" class="img-responsive">
-    </figure>
-    
-    <!-- Refêrencias a outras páginas -->
-    <a href=p1.html>Este é um link em html</a>
-
-    <!--Exemplo de uma lista ordenada -->
-    <ol>
-      <li>fulando</li>
-      <li>ciclano</li>
-      <li>beltrano</li>
-    </ol>
-    <p> Apenas um exemplo simples </p>
-
-  <body/>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message"><a href="#top" id="top-link">Ir ao Topo</a></div>
+<!-- End Wrapper -->
+</body>
+</html>
